@@ -5,4 +5,4 @@ RUN apt update;\
     curl -s -o /usr/bin/hey https://storage.googleapis.com/hey-release/hey_linux_amd64;\
     chmod 755 /usr/bin/hey
 
-COPY install.zip /setup
+ADD install.tar.gz /setup
