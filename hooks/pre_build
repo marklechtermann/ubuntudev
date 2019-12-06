@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -o x.txt https://raw.githubusercontent.com/marklechtermann/ubuntudev/master/LICENSE

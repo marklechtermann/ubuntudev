@@ -16,3 +16,5 @@ RUN apt update;\
     echo "###############################";\
     echo $testversion > /a.txt;\
     cat a.txt
+
+ADD x.txt /
