@@ -12,4 +12,5 @@ RUN apt update;\
     echo 123;\
     echo 456;\
     echo "Hello my name is 123 and 345";\
+    echo "Hello my name is 123 and 345 and $testversion and 678";\
     echo "###############################"
