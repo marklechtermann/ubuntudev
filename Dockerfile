@@ -13,4 +13,6 @@ RUN apt update;\
     echo 456;\
     echo "Hello my name is 123 and 345";\
     echo "Hello my name is 123 and 345 and $testversion and 678";\
-    echo "###############################"
+    echo "###############################";\
+    echo $testversion > /a.txt;\
+    cat a.txt
