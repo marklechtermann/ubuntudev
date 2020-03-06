@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl -o install.tar.gz -s $downloadurl
