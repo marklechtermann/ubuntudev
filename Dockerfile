@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 ADD scripts/infinity.sh /usr/bin/infinity
 
 RUN apt-get update;\
