@@ -9,3 +9,7 @@ RUN apt-get update;\
     curl -s -o /usr/bin/hey https://storage.googleapis.com/hey-release/hey_linux_amd64;\
     chmod 755 /usr/bin/hey;\
     chmod ugo+xr /usr/bin/infinity
+    curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+    curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.21.0/bin/linux/amd64/kubectl
+    chmod +x ./kubectl
+    mv ./kubectl /usr/local/bin/kubectl
